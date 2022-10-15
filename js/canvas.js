@@ -28,3 +28,14 @@ function dibujarLinea() {
     tablero.stroke();
     tablero.closePath();
 }
+
+function escribirLetraCorrecta(index) {
+    tablero.font = 'bold 52px Inter';
+    tablero.lineWidth = 6
+    tablero.lineCap = "round"
+    tablero.lineJoin = "round"
+    tablero.fillStyle = "#0A3871"
+    let anchura = 600 / palabraSecreta.length
+    tablero.fillText(palabraSecreta[index], 505 + (anchura * index), 620)
+    tablero.stroke()
+}
