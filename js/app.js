@@ -139,13 +139,13 @@ function iniciarJuego() {
     document.getElementById("div-desaparece").style.display = 'none';
 
     //llama la función que dibuja el tablero del ahorcado
-    dibujarTablero();
+    dibujarCanvas();
 
     //llama la función que sortea la palabra  
     escojerPalabraSecreta();
 
     //llama la función que dibuja las líneas donde el usuario escribirá
-    dibujarLineas();
+    dibujarLinea();
 
     // hace con que los botones de nuevo juego e salir aparezcan
     document.getElementById("btn-nuevo-juego").style.display = "block"
@@ -162,7 +162,7 @@ function iniciarJuego() {
                     adicionarLetraCorrecta(palabraSecreta.indexOf(letra))
                     for (let i = 0; i < palabraSecreta.length; i++) {
                         if (palabraSecreta[i] === letra) {
-                            escrribirLetraCorrecta(i)
+                            escribirLetraCorrecta(i)
                             verificarVencedor(letra)
 
                         }

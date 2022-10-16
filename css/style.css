@@ -1,5 +1,5 @@
 body {
-    min-width: 1224px;
+    min-width: 1200px;
     position: relative;
     margin: 0;
     padding: 0;
@@ -111,11 +111,11 @@ body {
 .logo {
     position: absolute;
     left: 50px;
-    right: 37.43%;
+    right: 40%;
     top: 50px;
     bottom: 0%;
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 80px;
 }
 
 .img-alerta {
@@ -159,7 +159,7 @@ label {
     width: auto;
     height: 18px;
     left: 2rem;
-    top: 41rem;
+    top: 28rem;
 }
 
 .botones-div {
@@ -168,11 +168,11 @@ label {
     align-items: flex-start;
     padding: 0px;
 
-    position: absolute;
+    position: fixed;
     width: 680px;
     height: 67px;
-    left: 0;
-    top: 43rem;
+    left: 20rem;
+    top: 30rem;
 }
 
 .btn-azul {
@@ -243,7 +243,7 @@ label {
 .canvas {
     margin-left: 2.5rem;
     width: 1024px;
-    height: 800px
+    height: 600px
 }
 
 .botones-div-canvas {
@@ -262,9 +262,9 @@ label {
 .botones-home {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     position: absolute;
-    left: 42rem;
+    left: 32rem;
 }
 
 .palabra-nueva {

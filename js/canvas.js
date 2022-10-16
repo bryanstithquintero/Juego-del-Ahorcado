@@ -5,7 +5,7 @@ function dibujarCanvas() {
     tablero.fillStyle = "#F3F5F6";
     tablero.strokeStyle = "#8A3871";
 
-    tablero.fillRect(0, 0, 1200, 860);
+    tablero.fillRect(0, 0, 1200, 600);
     tablero.beginPath();
     tablero.moveTo(650, 500);
     tablero.lineTo(900, 500);
